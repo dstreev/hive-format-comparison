@@ -1,0 +1,689 @@
+{
+  "delimiter": ",",
+  "fields": [
+    {
+      "date": {
+        "order": 1,
+        "format": "yyyy-MM-dd HH:mm:ss.SSS"
+      }
+    },
+    {
+      "sequence": {
+        "order": 2,
+        "type": "int",
+        "start": 0
+      }
+    },
+    {
+      "number": {
+        "order": 3,
+        "type": "int",
+        "min": 100,
+        "max": 15000,
+        "pool": {
+          "size": 10000
+        }
+      }
+    },
+    {
+      "string": {
+        "order": 4,
+        "randon": {
+          "min": 10,
+          "max": 12,
+          "chars": "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+        }
+      }
+    },
+    {
+      "ip": {
+        "order": 5,
+        "minIp": "10.0.14.0",
+        "maxIp": "192.121.32.254"
+      }
+    },
+    {
+      "number": {
+        "order": 6,
+        "type": "int",
+        "min": 1,
+        "max": 1000
+      }
+    },
+    {
+      "boolean": {
+        "order": 7,
+        "format": "true:false"
+      }
+    },
+    {
+      "string": {
+        "order": 8,
+        "randon": {
+          "min": 10,
+          "max": 12,
+          "chars": "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+        },
+        "pool": {
+          "size": 50
+        }
+      }
+    },
+    {
+      "number": {
+        "order": 9,
+        "type": "double",
+        "min": 0,
+        "max": 100
+      }
+    },
+    {
+      "number": {
+        "order": 10,
+        "type": "double",
+        "min": 0,
+        "max": 100
+      }
+    },
+    {
+      "number": {
+        "order": 11,
+        "type": "double",
+        "min": 0,
+        "max": 100
+      }
+    },
+    {
+      "number": {
+        "order": 12,
+        "type": "double",
+        "min": 0,
+        "max": 100
+      }
+    },
+    {
+      "number": {
+        "order": 13,
+        "type": "double",
+        "min": 0,
+        "max": 100
+      }
+    },
+    {
+      "number": {
+        "order": 14,
+        "type": "double",
+        "min": 0,
+        "max": 100
+      }
+    },
+    {
+      "number": {
+        "order": 15,
+        "type": "double",
+        "min": 0,
+        "max": 100
+      }
+    },
+    {
+      "number": {
+        "order": 16,
+        "type": "double",
+        "min": 0,
+        "max": 100
+      }
+    },
+    {
+      "number": {
+        "order": 17,
+        "type": "double",
+        "min": 0,
+        "max": 100
+      }
+    },
+    {
+      "number": {
+        "order": 18,
+        "type": "double",
+        "min": 0,
+        "max": 100
+      }
+    },
+    {
+      "number": {
+        "order": 19,
+        "type": "double",
+        "min": 0,
+        "max": 100
+      }
+    },
+    {
+      "number": {
+        "order": 20,
+        "type": "double",
+        "min": 0,
+        "max": 100
+      }
+    },
+    {
+      "number": {
+        "order": 21,
+        "type": "double",
+        "min": 0,
+        "max": 100
+      }
+    },
+    {
+      "number": {
+        "order": 22,
+        "type": "double",
+        "min": 0,
+        "max": 100
+      }
+    },
+    {
+      "number": {
+        "order": 23,
+        "type": "double",
+        "min": 0,
+        "max": 100
+      }
+    },
+    {
+      "number": {
+        "order": 24,
+        "type": "double",
+        "min": 0,
+        "max": 100
+      }
+    },
+    {
+      "number": {
+        "order": 25,
+        "type": "double",
+        "min": 0,
+        "max": 100
+      }
+    },
+    {
+      "number": {
+        "order": 26,
+        "type": "double",
+        "min": 0,
+        "max": 100
+      }
+    },
+    {
+      "number": {
+        "order": 27,
+        "type": "double",
+        "min": 0,
+        "max": 100
+      }
+    },
+    {
+      "number": {
+        "order": 28,
+        "type": "double",
+        "min": 0,
+        "max": 100
+      }
+    },
+    {
+      "number": {
+        "order": 29,
+        "type": "double",
+        "min": 0,
+        "max": 100
+      }
+    },
+    {
+      "number": {
+        "order": 30,
+        "type": "double",
+        "min": 0,
+        "max": 100
+      }
+    },
+    {
+      "number": {
+        "order": 31,
+        "type": "double",
+        "min": 0,
+        "max": 100
+      }
+    },
+    {
+      "number": {
+        "order": 32,
+        "type": "double",
+        "min": 0,
+        "max": 100
+      }
+    },
+    {
+      "number": {
+        "order": 33,
+        "type": "double",
+        "min": 0,
+        "max": 100
+      }
+    },
+    {
+      "number": {
+        "order": 34,
+        "type": "double",
+        "min": 0,
+        "max": 100
+      }
+    },
+    {
+      "number": {
+        "order": 35,
+        "type": "double",
+        "min": 0,
+        "max": 100
+      }
+    },
+    {
+      "number": {
+        "order": 36,
+        "type": "double",
+        "min": 0,
+        "max": 100
+      }
+    },
+    {
+      "number": {
+        "order": 37,
+        "type": "double",
+        "min": 0,
+        "max": 100
+      }
+    },
+    {
+      "number": {
+        "order": 38,
+        "type": "double",
+        "min": 0,
+        "max": 100
+      }
+    },
+    {
+      "number": {
+        "order": 39,
+        "type": "double",
+        "min": 0,
+        "max": 100
+      }
+    },
+    {
+      "number": {
+        "order": 40,
+        "type": "double",
+        "min": 0,
+        "max": 100
+      }
+    },
+    {
+      "number": {
+        "order": 41,
+        "type": "double",
+        "min": 0,
+        "max": 100
+      }
+    },
+    {
+      "number": {
+        "order": 42,
+        "type": "double",
+        "min": 0,
+        "max": 100
+      }
+    },
+    {
+      "number": {
+        "order": 43,
+        "type": "double",
+        "min": 0,
+        "max": 100
+      }
+    },
+    {
+      "number": {
+        "order": 44,
+        "type": "double",
+        "min": 0,
+        "max": 100
+      }
+    },
+    {
+      "number": {
+        "order": 45,
+        "type": "double",
+        "min": 0,
+        "max": 100
+      }
+    },
+    {
+      "number": {
+        "order": 46,
+        "type": "double",
+        "min": 0,
+        "max": 100
+      }
+    },
+    {
+      "number": {
+        "order": 47,
+        "type": "double",
+        "min": 0,
+        "max": 100
+      }
+    },
+    {
+      "number": {
+        "order": 48,
+        "type": "double",
+        "min": 0,
+        "max": 100
+      }
+    },
+    {
+      "number": {
+        "order": 49,
+        "type": "double",
+        "min": 0,
+        "max": 100
+      }
+    },
+    {
+      "number": {
+        "order": 50,
+        "type": "double",
+        "min": 0,
+        "max": 100
+      }
+    },
+    {
+      "number": {
+        "order": 51,
+        "type": "double",
+        "min": 0,
+        "max": 100
+      }
+    },
+    {
+      "number": {
+        "order": 52,
+        "type": "double",
+        "min": 0,
+        "max": 100
+      }
+    },
+    {
+      "number": {
+        "order": 53,
+        "type": "double",
+        "min": 0,
+        "max": 100
+      }
+    },
+    {
+      "number": {
+        "order": 54,
+        "type": "double",
+        "min": 0,
+        "max": 100
+      }
+    },
+    {
+      "number": {
+        "order": 55,
+        "type": "double",
+        "min": 0,
+        "max": 100
+      }
+    },
+    {
+      "number": {
+        "order": 56,
+        "type": "double",
+        "min": 0,
+        "max": 100
+      }
+    },
+    {
+      "number": {
+        "order": 57,
+        "type": "double",
+        "min": 0,
+        "max": 100
+      }
+    },
+    {
+      "number": {
+        "order": 58,
+        "type": "double",
+        "min": 0,
+        "max": 100
+      }
+    },
+    {
+      "number": {
+        "order": 59,
+        "type": "double",
+        "min": 0,
+        "max": 100
+      }
+    },
+    {
+      "number": {
+        "order": 60,
+        "type": "double",
+        "min": 0,
+        "max": 100
+      }
+    },
+    {
+      "number": {
+        "order": 61,
+        "type": "double",
+        "min": 0,
+        "max": 100
+      }
+    },
+    {
+      "number": {
+        "order": 62,
+        "type": "double",
+        "min": 0,
+        "max": 100
+      }
+    },
+    {
+      "number": {
+        "order": 63,
+        "type": "double",
+        "min": 0,
+        "max": 100
+      }
+    },
+    {
+      "number": {
+        "order": 64,
+        "type": "double",
+        "min": 0,
+        "max": 100
+      }
+    },
+    {
+      "number": {
+        "order": 65,
+        "type": "double",
+        "min": 0,
+        "max": 100
+      }
+    },
+    {
+      "number": {
+        "order": 66,
+        "type": "double",
+        "min": 0,
+        "max": 100
+      }
+    },
+    {
+      "number": {
+        "order": 67,
+        "type": "double",
+        "min": 0,
+        "max": 100
+      }
+    },
+    {
+      "number": {
+        "order": 68,
+        "type": "double",
+        "min": 0,
+        "max": 100
+      }
+    },
+    {
+      "number": {
+        "order": 69,
+        "type": "double",
+        "min": 0,
+        "max": 100
+      }
+    },
+    {
+      "number": {
+        "order": 70,
+        "type": "double",
+        "min": 0,
+        "max": 100
+      }
+    },
+    {
+      "number": {
+        "order": 71,
+        "type": "double",
+        "min": 0,
+        "max": 100
+      }
+    },
+    {
+      "number": {
+        "order": 72,
+        "type": "double",
+        "min": 0,
+        "max": 100
+      }
+    },
+    {
+      "number": {
+        "order": 73,
+        "type": "double",
+        "min": 0,
+        "max": 100
+      }
+    },
+    {
+      "number": {
+        "order": 74,
+        "type": "double",
+        "min": 0,
+        "max": 100
+      }
+    },
+    {
+      "number": {
+        "order": 75,
+        "type": "double",
+        "min": 0,
+        "max": 100
+      }
+    },
+    {
+      "number": {
+        "order": 76,
+        "type": "double",
+        "min": 0,
+        "max": 100
+      }
+    },
+    {
+      "number": {
+        "order": 77,
+        "type": "double",
+        "min": 0,
+        "max": 100
+      }
+    },
+    {
+      "number": {
+        "order": 78,
+        "type": "double",
+        "min": 0,
+        "max": 100
+      }
+    },
+    {
+      "number": {
+        "order": 79,
+        "type": "double",
+        "min": 0,
+        "max": 100
+      }
+    },
+    {
+      "number": {
+        "order": 80,
+        "type": "double",
+        "min": 0,
+        "max": 100
+      }
+    },
+    {
+      "number": {
+        "order": 81,
+        "type": "double",
+        "min": 0,
+        "max": 100
+      }
+    },
+    {
+      "number": {
+        "order": 82,
+        "type": "double",
+        "min": 0,
+        "max": 100
+      }
+    },
+    {
+      "number": {
+        "order": 83,
+        "type": "double",
+        "min": 0,
+        "max": 100
+      }
+    },
+    {
+      "number": {
+        "order": 84,
+        "type": "double",
+        "min": 0,
+        "max": 100
+      }
+    },
+    {
+      "number": {
+        "order": 85,
+        "type": "double",
+        "min": 0,
+        "max": 100
+      }
+    }
+  ]
+}

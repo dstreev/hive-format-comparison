@@ -1,0 +1,16 @@
+name                                       Query Time(secs)  HDFS_READ_OPS  hdfs_data_read_mb  CPU_MILLIS  MEMORY_REQUESTED_GB  MEMORY_UNUSED_GB  network_transfer_mb  
+-----------------------------------------  ----------------  -------------  -----------------  ----------  -------------------  ----------------  -------------------  
+"Set 3 (DOUBLE) :: avro count - 2 fields"  28.729            82             3585.499           396050      48.0                 24.25             0.00059              
+"Set 3 (DOUBLE) :: avro join"              22.944            84             3585.502           329530      48.0                 30.97             0.0467               
+"Set 3 (DOUBLE) :: csv count - 2 fields"   15.177            22             2513.509           137190      42.0                 26.79             0.00052              
+"Set 3 (DOUBLE) :: orc count - 2 fields"   2.746             42             45.992             24870       42.0                 19.55             0.00052              
+"Set 3 (DOUBLE) :: orc join"               9.052             44             122.115            65290       42.0                 25.51             0.04172              
+"Set 3 (DOUBLE) :: orc optimized join"     2.715             82             120.787            26210       42.0                 25.5              0.04173              
+"Set 3 (DOUBLE) :: txt join"               4.544             24             2513.512           51920       42.0                 28.1              0.04172              
+"Set 3 (STRING) :: avro count - 2 fields"  46.214            102            6467.468           514370      54.0                 29.84             0.00067              
+"Set 3 (STRING) :: avro join"              30.63             104            6467.47            374590      54.0                 38.05             0.05601              
+"Set 3 (STRING) :: csv count - 2 fields"   21.73             52             6184.24            214660      52.0                 31.43             0.00064              
+"Set 3 (STRING) :: orc count - 2 fields"   4.156             52             84.268             41910       52.0                 22.63             0.00064              
+"Set 3 (STRING) :: orc join"               7.78              54             202.988            110230      52.0                 36.49             0.05435              
+"Set 3 (STRING) :: orc optimized join"     2.33              82             201.573            30090       42.0                 29.51             0.04603              
+"Set 3 (STRING) :: txt join"               10.913            54             6184.242           113930      52.0                 36.58             0.04935              

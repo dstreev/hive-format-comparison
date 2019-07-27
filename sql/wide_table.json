@@ -1,0 +1,1079 @@
+{
+  "delimiter": ",",
+  "fields": [
+    {
+      "date": {
+        "order": 1,
+        "format": "yyyy-MM-dd HH:mm:ss.SSS"
+      }
+    },
+    {
+      "sequence": {
+        "order": 2,
+        "type": "int",
+        "start": 0
+      }
+    },
+    {
+      "number": {
+        "order": 3,
+        "type": "int",
+        "min": 100,
+        "max": 15000,
+        "pool" : {
+          "size" : 10000
+        }
+      }
+    },
+    {
+      "string": {
+        "order" : 4,
+        "randon": {
+          "min" : 10,
+          "max" : 12,
+          "chars" : "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+        }
+      }
+    },
+    {
+      "ip": {
+        "order": 5,
+        "minIp": "10.0.14.0",
+        "maxIp": "192.121.32.254"
+      }
+    },
+    {
+      "string": {
+        "order": 6,
+        "random" : {
+          "min" : 5,
+          "max" : 5,
+          "chars" : "1234567890",
+          "pool" : {
+            "size" : 1000000
+          }
+        }
+      }
+    },
+    {
+      "boolean": {
+        "order": 7,
+        "format": "true:false"
+      }
+    },
+    {
+      "string": {
+        "order" : 8,
+        "randon": {
+          "min" : 10,
+          "max" : 12,
+          "chars" : "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+        },
+        "pool" : {
+          "size" : 50
+        }
+      }
+    },
+    {
+      "string": {
+        "order" : 9,
+        "randon": {
+          "min" : 10,
+          "max" : 12,
+          "chars" : "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+        },
+        "pool" : {
+          "size" : 50
+        }
+      }
+    },
+    {
+      "string": {
+        "order" : 10,
+        "randon": {
+          "min" : 10,
+          "max" : 12,
+          "chars" : "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+        },
+        "pool" : {
+          "size" : 50
+        }
+      }
+    },
+    {
+      "string": {
+        "order" : 11,
+        "randon": {
+          "min" : 10,
+          "max" : 12,
+          "chars" : "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+        },
+        "pool" : {
+          "size" : 50
+        }
+      }
+    },
+    {
+      "string": {
+        "order" : 12,
+        "randon": {
+          "min" : 10,
+          "max" : 12,
+          "chars" : "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+        },
+        "pool" : {
+          "size" : 50
+        }
+      }
+    },
+    {
+      "string": {
+        "order" : 13,
+        "randon": {
+          "min" : 10,
+          "max" : 12,
+          "chars" : "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+        },
+        "pool" : {
+          "size" : 50
+        }
+      }
+    },
+    {
+      "string": {
+        "order" : 14,
+        "randon": {
+          "min" : 10,
+          "max" : 12,
+          "chars" : "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+        },
+        "pool" : {
+          "size" : 50
+        }
+      }
+    },
+    {
+      "string": {
+        "order" : 15,
+        "randon": {
+          "min" : 10,
+          "max" : 12,
+          "chars" : "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+        },
+        "pool" : {
+          "size" : 50
+        }
+      }
+    },
+    {
+      "string": {
+        "order" : 16,
+        "randon": {
+          "min" : 10,
+          "max" : 12,
+          "chars" : "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+        },
+        "pool" : {
+          "size" : 50
+        }
+      }
+    },
+    {
+      "string": {
+        "order" : 17,
+        "randon": {
+          "min" : 10,
+          "max" : 12,
+          "chars" : "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+        },
+        "pool" : {
+          "size" : 50
+        }
+      }
+    },
+    {
+      "string": {
+        "order" : 18,
+        "randon": {
+          "min" : 10,
+          "max" : 12,
+          "chars" : "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+        },
+        "pool" : {
+          "size" : 50
+        }
+      }
+    },
+    {
+      "string": {
+        "order" : 19,
+        "randon": {
+          "min" : 10,
+          "max" : 12,
+          "chars" : "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+        },
+        "pool" : {
+          "size" : 50
+        }
+      }
+    },
+    {
+      "string": {
+        "order" : 20,
+        "randon": {
+          "min" : 10,
+          "max" : 12,
+          "chars" : "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+        },
+        "pool" : {
+          "size" : 50
+        }
+      }
+    },
+    {
+      "string": {
+        "order" : 21,
+        "randon": {
+          "min" : 10,
+          "max" : 12,
+          "chars" : "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+        },
+        "pool" : {
+          "size" : 50
+        }
+      }
+    },
+    {
+      "string": {
+        "order" : 22,
+        "randon": {
+          "min" : 10,
+          "max" : 12,
+          "chars" : "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+        },
+        "pool" : {
+          "size" : 50
+        }
+      }
+    },
+    {
+      "string": {
+        "order" : 23,
+        "randon": {
+          "min" : 10,
+          "max" : 12,
+          "chars" : "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+        },
+        "pool" : {
+          "size" : 50
+        }
+      }
+    },
+    {
+      "string": {
+        "order" : 24,
+        "randon": {
+          "min" : 10,
+          "max" : 12,
+          "chars" : "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+        },
+        "pool" : {
+          "size" : 50
+        }
+      }
+    },
+    {
+      "string": {
+        "order" : 25,
+        "randon": {
+          "min" : 10,
+          "max" : 12,
+          "chars" : "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+        },
+        "pool" : {
+          "size" : 50
+        }
+      }
+    },
+    {
+      "string": {
+        "order" : 26,
+        "randon": {
+          "min" : 10,
+          "max" : 12,
+          "chars" : "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+        },
+        "pool" : {
+          "size" : 50
+        }
+      }
+    },
+    {
+      "string": {
+        "order" : 27,
+        "randon": {
+          "min" : 10,
+          "max" : 12,
+          "chars" : "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+        },
+        "pool" : {
+          "size" : 50
+        }
+      }
+    },
+    {
+      "string": {
+        "order" : 28,
+        "randon": {
+          "min" : 10,
+          "max" : 12,
+          "chars" : "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+        },
+        "pool" : {
+          "size" : 50
+        }
+      }
+    },
+    {
+      "string": {
+        "order" : 29,
+        "randon": {
+          "min" : 10,
+          "max" : 12,
+          "chars" : "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+        },
+        "pool" : {
+          "size" : 50
+        }
+      }
+    },
+    {
+      "string": {
+        "order" : 30,
+        "randon": {
+          "min" : 10,
+          "max" : 12,
+          "chars" : "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+        },
+        "pool" : {
+          "size" : 50
+        }
+      }
+    },
+    {
+      "string": {
+        "order" : 31,
+        "randon": {
+          "min" : 10,
+          "max" : 12,
+          "chars" : "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+        },
+        "pool" : {
+          "size" : 50
+        }
+      }
+    },
+    {
+      "string": {
+        "order" : 32,
+        "randon": {
+          "min" : 10,
+          "max" : 12,
+          "chars" : "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+        },
+        "pool" : {
+          "size" : 50
+        }
+      }
+    },
+    {
+      "string": {
+        "order" : 33,
+        "randon": {
+          "min" : 10,
+          "max" : 12,
+          "chars" : "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+        },
+        "pool" : {
+          "size" : 50
+        }
+      }
+    },
+    {
+      "string": {
+        "order" : 34,
+        "randon": {
+          "min" : 10,
+          "max" : 12,
+          "chars" : "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+        },
+        "pool" : {
+          "size" : 50
+        }
+      }
+    },
+    {
+      "string": {
+        "order" : 35,
+        "randon": {
+          "min" : 10,
+          "max" : 12,
+          "chars" : "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+        },
+        "pool" : {
+          "size" : 50
+        }
+      }
+    },
+    {
+      "string": {
+        "order" : 36,
+        "randon": {
+          "min" : 10,
+          "max" : 12,
+          "chars" : "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+        },
+        "pool" : {
+          "size" : 50
+        }
+      }
+    },
+    {
+      "string": {
+        "order" : 37,
+        "randon": {
+          "min" : 10,
+          "max" : 12,
+          "chars" : "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+        },
+        "pool" : {
+          "size" : 50
+        }
+      }
+    },
+    {
+      "string": {
+        "order" : 38,
+        "randon": {
+          "min" : 10,
+          "max" : 12,
+          "chars" : "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+        },
+        "pool" : {
+          "size" : 50
+        }
+      }
+    },
+    {
+      "string": {
+        "order" : 39,
+        "randon": {
+          "min" : 10,
+          "max" : 12,
+          "chars" : "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+        },
+        "pool" : {
+          "size" : 50
+        }
+      }
+    },
+    {
+      "string": {
+        "order" : 40,
+        "randon": {
+          "min" : 10,
+          "max" : 12,
+          "chars" : "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+        },
+        "pool" : {
+          "size" : 50
+        }
+      }
+    },
+    {
+      "string": {
+        "order" : 41,
+        "randon": {
+          "min" : 10,
+          "max" : 12,
+          "chars" : "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+        },
+        "pool" : {
+          "size" : 50
+        }
+      }
+    },
+    {
+      "string": {
+        "order" : 42,
+        "randon": {
+          "min" : 10,
+          "max" : 12,
+          "chars" : "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+        },
+        "pool" : {
+          "size" : 50
+        }
+      }
+    },
+    {
+      "string": {
+        "order" : 43,
+        "randon": {
+          "min" : 10,
+          "max" : 12,
+          "chars" : "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+        },
+        "pool" : {
+          "size" : 50
+        }
+      }
+    },
+    {
+      "string": {
+        "order" : 44,
+        "randon": {
+          "min" : 10,
+          "max" : 12,
+          "chars" : "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+        },
+        "pool" : {
+          "size" : 50
+        }
+      }
+    },
+    {
+      "string": {
+        "order" : 45,
+        "randon": {
+          "min" : 10,
+          "max" : 12,
+          "chars" : "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+        },
+        "pool" : {
+          "size" : 50
+        }
+      }
+    },
+    {
+      "string": {
+        "order" : 46,
+        "randon": {
+          "min" : 10,
+          "max" : 12,
+          "chars" : "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+        },
+        "pool" : {
+          "size" : 50
+        }
+      }
+    },
+    {
+      "string": {
+        "order" : 47,
+        "randon": {
+          "min" : 10,
+          "max" : 12,
+          "chars" : "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+        },
+        "pool" : {
+          "size" : 50
+        }
+      }
+    },
+    {
+      "string": {
+        "order" : 48,
+        "randon": {
+          "min" : 10,
+          "max" : 12,
+          "chars" : "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+        },
+        "pool" : {
+          "size" : 50
+        }
+      }
+    },
+    {
+      "string": {
+        "order" : 49,
+        "randon": {
+          "min" : 10,
+          "max" : 12,
+          "chars" : "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+        },
+        "pool" : {
+          "size" : 50
+        }
+      }
+    },
+    {
+      "string": {
+        "order" : 50,
+        "randon": {
+          "min" : 10,
+          "max" : 12,
+          "chars" : "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+        },
+        "pool" : {
+          "size" : 50
+        }
+      }
+    },
+    {
+      "string": {
+        "order" : 51,
+        "randon": {
+          "min" : 10,
+          "max" : 12,
+          "chars" : "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+        },
+        "pool" : {
+          "size" : 50
+        }
+      }
+    },
+    {
+      "string": {
+        "order" : 52,
+        "randon": {
+          "min" : 10,
+          "max" : 12,
+          "chars" : "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+        },
+        "pool" : {
+          "size" : 50
+        }
+      }
+    },
+    {
+      "string": {
+        "order" : 53,
+        "randon": {
+          "min" : 10,
+          "max" : 12,
+          "chars" : "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+        },
+        "pool" : {
+          "size" : 50
+        }
+      }
+    },
+    {
+      "string": {
+        "order" : 54,
+        "randon": {
+          "min" : 10,
+          "max" : 12,
+          "chars" : "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+        },
+        "pool" : {
+          "size" : 50
+        }
+      }
+    },
+    {
+      "string": {
+        "order" : 55,
+        "randon": {
+          "min" : 10,
+          "max" : 12,
+          "chars" : "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+        },
+        "pool" : {
+          "size" : 50
+        }
+      }
+    },
+    {
+      "string": {
+        "order" : 56,
+        "randon": {
+          "min" : 10,
+          "max" : 12,
+          "chars" : "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+        },
+        "pool" : {
+          "size" : 50
+        }
+      }
+    },
+    {
+      "string": {
+        "order" : 57,
+        "randon": {
+          "min" : 10,
+          "max" : 12,
+          "chars" : "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+        },
+        "pool" : {
+          "size" : 50
+        }
+      }
+    },
+    {
+      "string": {
+        "order" : 58,
+        "randon": {
+          "min" : 10,
+          "max" : 12,
+          "chars" : "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+        },
+        "pool" : {
+          "size" : 50
+        }
+      }
+    },
+    {
+      "string": {
+        "order" : 59,
+        "randon": {
+          "min" : 10,
+          "max" : 12,
+          "chars" : "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+        },
+        "pool" : {
+          "size" : 50
+        }
+      }
+    },
+    {
+      "string": {
+        "order" : 60,
+        "randon": {
+          "min" : 10,
+          "max" : 12,
+          "chars" : "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+        },
+        "pool" : {
+          "size" : 50
+        }
+      }
+    },
+    {
+      "string": {
+        "order" : 61,
+        "randon": {
+          "min" : 10,
+          "max" : 12,
+          "chars" : "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+        },
+        "pool" : {
+          "size" : 50
+        }
+      }
+    },
+    {
+      "string": {
+        "order" : 62,
+        "randon": {
+          "min" : 10,
+          "max" : 12,
+          "chars" : "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+        },
+        "pool" : {
+          "size" : 50
+        }
+      }
+    },
+    {
+      "string": {
+        "order" : 63,
+        "randon": {
+          "min" : 10,
+          "max" : 12,
+          "chars" : "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+        },
+        "pool" : {
+          "size" : 50
+        }
+      }
+    },
+    {
+      "string": {
+        "order" : 64,
+        "randon": {
+          "min" : 10,
+          "max" : 12,
+          "chars" : "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+        },
+        "pool" : {
+          "size" : 50
+        }
+      }
+    },
+    {
+      "string": {
+        "order" : 65,
+        "randon": {
+          "min" : 10,
+          "max" : 12,
+          "chars" : "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+        },
+        "pool" : {
+          "size" : 50
+        }
+      }
+    },
+    {
+      "string": {
+        "order" : 66,
+        "randon": {
+          "min" : 10,
+          "max" : 12,
+          "chars" : "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+        },
+        "pool" : {
+          "size" : 50
+        }
+      }
+    },
+    {
+      "string": {
+        "order" : 67,
+        "randon": {
+          "min" : 10,
+          "max" : 12,
+          "chars" : "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+        },
+        "pool" : {
+          "size" : 50
+        }
+      }
+    },
+    {
+      "string": {
+        "order" : 68,
+        "randon": {
+          "min" : 10,
+          "max" : 12,
+          "chars" : "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+        },
+        "pool" : {
+          "size" : 50
+        }
+      }
+    },
+    {
+      "string": {
+        "order" : 69,
+        "randon": {
+          "min" : 10,
+          "max" : 12,
+          "chars" : "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+        },
+        "pool" : {
+          "size" : 50
+        }
+      }
+    },
+    {
+      "string": {
+        "order" : 70,
+        "randon": {
+          "min" : 10,
+          "max" : 12,
+          "chars" : "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+        },
+        "pool" : {
+          "size" : 50
+        }
+      }
+    },
+    {
+      "string": {
+        "order" : 71,
+        "randon": {
+          "min" : 10,
+          "max" : 12,
+          "chars" : "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+        },
+        "pool" : {
+          "size" : 50
+        }
+      }
+    },
+    {
+      "string": {
+        "order" : 72,
+        "randon": {
+          "min" : 10,
+          "max" : 12,
+          "chars" : "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+        },
+        "pool" : {
+          "size" : 50
+        }
+      }
+    },
+    {
+      "string": {
+        "order" : 73,
+        "randon": {
+          "min" : 10,
+          "max" : 12,
+          "chars" : "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+        },
+        "pool" : {
+          "size" : 50
+        }
+      }
+    },
+    {
+      "string": {
+        "order" : 74,
+        "randon": {
+          "min" : 10,
+          "max" : 12,
+          "chars" : "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+        },
+        "pool" : {
+          "size" : 50
+        }
+      }
+    },
+    {
+      "string": {
+        "order" : 75,
+        "randon": {
+          "min" : 10,
+          "max" : 12,
+          "chars" : "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+        },
+        "pool" : {
+          "size" : 50
+        }
+      }
+    },
+    {
+      "string": {
+        "order" : 76,
+        "randon": {
+          "min" : 10,
+          "max" : 12,
+          "chars" : "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+        },
+        "pool" : {
+          "size" : 50
+        }
+      }
+    },
+    {
+      "string": {
+        "order" : 77,
+        "randon": {
+          "min" : 10,
+          "max" : 12,
+          "chars" : "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+        },
+        "pool" : {
+          "size" : 50
+        }
+      }
+    },
+    {
+      "string": {
+        "order" : 78,
+        "randon": {
+          "min" : 10,
+          "max" : 12,
+          "chars" : "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+        },
+        "pool" : {
+          "size" : 50
+        }
+      }
+    },
+    {
+      "string": {
+        "order" : 79,
+        "randon": {
+          "min" : 10,
+          "max" : 12,
+          "chars" : "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+        },
+        "pool" : {
+          "size" : 50
+        }
+      }
+    },
+    {
+      "string": {
+        "order" : 80,
+        "randon": {
+          "min" : 10,
+          "max" : 12,
+          "chars" : "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+        },
+        "pool" : {
+          "size" : 50
+        }
+      }
+    },
+    {
+      "string": {
+        "order" : 81,
+        "randon": {
+          "min" : 10,
+          "max" : 12,
+          "chars" : "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+        },
+        "pool" : {
+          "size" : 50
+        }
+      }
+    },
+    {
+      "string": {
+        "order" : 82,
+        "randon": {
+          "min" : 10,
+          "max" : 12,
+          "chars" : "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+        },
+        "pool" : {
+          "size" : 50
+        }
+      }
+    },
+    {
+      "string": {
+        "order" : 83,
+        "randon": {
+          "min" : 10,
+          "max" : 12,
+          "chars" : "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+        },
+        "pool" : {
+          "size" : 50
+        }
+      }
+    },
+    {
+      "string": {
+        "order" : 84,
+        "randon": {
+          "min" : 10,
+          "max" : 12,
+          "chars" : "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+        },
+        "pool" : {
+          "size" : 50
+        }
+      }
+    },
+    {
+      "string": {
+        "order" : 85,
+        "randon": {
+          "min" : 10,
+          "max" : 12,
+          "chars" : "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+        },
+        "pool" : {
+          "size" : 50
+        }
+      }
+    }
+  ]
+}
